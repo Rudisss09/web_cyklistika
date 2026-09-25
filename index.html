@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Cyklistika – sport pro každého</title>
+    <meta name="description" content="Jednostránkový web o cyklistice, jejích výhodách, vybavení a bezpečnosti.">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>Cyklistika</h1>
+    <p>Sport, pohyb a dobrodružství na dvou kolech</p>
+
+    <nav>
+        <a href="#uvod">Úvod</a>
+        <a href="#vyhody">Výhody</a>
+        <a href="#vybaveni">Vybavení</a>
+        <a href="#bezpecnost">Bezpečnost</a>
+    </nav>
+</header>
+
+<main>
+
+    <section id="uvod" class="hero">
+        <div>
+            <h2>Objev svět na kole</h2>
+            <p>
+                Cyklistika je oblíbená sportovní aktivita, při které si člověk
+                užije pohyb, přírodu i zábavu. Je vhodná pro začátečníky
+                i zkušené cyklisty.
+            </p>
+
+            <a class="button" href="#vyhody">Zjistit více</a>
+        </div>
+
+        <img src="img/kolo.webp" alt="Horské kolo na lesní cestě">
+    </section>
+
+    <section id="vyhody">
+        <h2>Proč jezdit na kole?</h2>
+
+        <div class="cards">
+            <article>
+                <h3>Pohyb</h3>
+                <p>
+                    Jízda na kole je způsob, jak pravidelně zařadit pohyb
+                    do svého volného času.
+                </p>
+            </article>
+
+            <article>
+                <h3>Příroda</h3>
+                <p>
+                    Na kole se můžeme dostat na místa, která bychom pěšky
+                    nebo autem navštívili jen obtížně.
+                </p>
+            </article>
+
+            <article>
+                <h3>Zábava</h3>
+                <p>
+                    Cyklistika může být individuální sport i aktivita,
+                    kterou si užijeme s kamarády nebo rodinou.
+                </p>
+            </article>
+        </div>
+    </section>
+
+    <section id="vybaveni">
+        <h2>Základní vybavení</h2>
+
+        <ul>
+            <li>jízdní kolo vhodné pro daný terén</li>
+            <li>cyklistická přilba</li>
+            <li>láhev s vodou</li>
+            <li>světla a reflexní prvky</li>
+            <li>základní nářadí a náhradní duše</li>
+        </ul>
+
+        <button id="moreButton">Zobrazit další tip</button>
+
+        <p id="moreText" class="hidden">
+            Před delší jízdou je dobré zkontrolovat tlak v pneumatikách,
+            brzdy a stav řetězu.
+        </p>
+    </section>
+
+    <section id="bezpecnost">
+        <h2>Bezpečnost na kole</h2>
+
+        <p>
+            Bezpečnost je při cyklistice velmi důležitá. Přilba, správně
+            vybavené kolo a respektování pravidel silničního provozu
+            pomáhají předcházet nebezpečným situacím.
+        </p>
+
+        <aside>
+            <h3>Malý cyklistický kvíz</h3>
+
+            <p id="quizQuestion">
+                Co je důležité mít při jízdě na kole?
+            </p>
+
+            <button class="answer" data-correct="true">
+                Přilbu
+            </button>
+
+            <button class="answer" data-correct="false">
+                Sluneční brýle jako jedinou ochranu
+            </button>
+
+            <p id="quizResult"></p>
+        </aside>
+    </section>
+
+    <section id="kontakt">
+        <h2>Oblíbená trasa</h2>
+
+        <form id="routeForm">
+            <label for="route">Jaký typ trasy máš rád/a?</label>
+
+            <select id="route">
+                <option value="">Vyber možnost</option>
+                <option value="les">Lesní trasy</option>
+                <option value="silnice">Silniční trasy</option>
+                <option value="hory">Horské trasy</option>
+            </select>
+
+            <button type="submit">Vybrat</button>
+        </form>
+
+        <p id="routeResult"></p>
+    </section>
+
+</main>
+
+<footer>
+    <p>&copy; 2026 Cyklistika – školní projekt</p>
+    <p>
+        <a href="https://www.ceskycyklistickytym.cz/" target="_blank">
+            Česká cyklistika
+        </a>
+    </p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
