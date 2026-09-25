@@ -177,7 +177,7 @@ Je potřeba provést audit minimálně pro:
 
 Výsledek Lighthouse auditu bude odevzdán společně s projektem.
 
-## 👨‍💻 Autor
+## 👨‍💻 Autor Rudolf Borovka 3IT
 
 Školní projekt – One-page web
 
